@@ -51,8 +51,7 @@
   </script>
 
   <!-- Content Security Policy -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://maxcdn.bootstrapcdn.com https://fonts.googleapis.com; img-src 'self' data: https://www.aeganai.in https://images.unsplash.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-src 'self' https://www.google.com; object-src 'none';">
-
+  <!-- <meta http-equiv="Content-Security-Policy" content="script-src 'nonce-rAnd0m' 'strict-dynamic';default-src 'self';"> -->
   <!-- Security Note: Configure HSTS on the server -->
   <!-- Example: Strict-Transport-Security: max-age=31536000; includeSubDomains; preload -->
 
@@ -869,7 +868,7 @@
   </section>
   <!-- footer section -->
 
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script crossorigin="anonymous" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
